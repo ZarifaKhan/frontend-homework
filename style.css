@@ -1,0 +1,552 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Lato', sans-serif;*/
+/*PAGE 1 START*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.wrapper {
+  width: 800px;
+
+  /*padding: 39px 82px 151px 59px;*/
+  margin: 39px 82px 100px 59px;
+}
+a {
+  text-decoration: none;
+}
+
+.nav-items ul li {
+  list-style-type: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  width: 96px;
+  height: 30px;
+  margin-right: 120px;
+}
+.header .nav-items ul {
+  display: flex;
+}
+.nav-items ul li a {
+  color: 2B2C43;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 10px;
+  opacity: 0.9;
+  margin: 0px 50px;
+}
+.header .contact {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 10px 30px;
+  background-color: #fe753e;
+}
+.home {
+  color: #fe753e;
+}
+
+.container {
+  display: flex;
+  margin-top: 70px;
+}
+
+.container .left .orange {
+  width: 176px;
+  height: 22px;
+  margin-bottom: 50px;
+  color: #fe753e;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.container .left .main {
+  width: 636px;
+  height: 133px;
+  color: #2b2c43;
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+  margin-bottom: 38px;
+}
+.container .left .text {
+  width: 480px;
+  height: 51px;
+  font-family: "Lato san-serif";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  opacity: 0.6;
+  margin-left: 22px;
+  margin-bottom: 81px;
+}
+
+.container .left .footer {
+  display: flex;
+  align-items: center;
+  margin-top: 81px;
+  margin-right: 20px;
+  margin-bottom: 120px;
+}
+.container .left .footer .best-menu {
+  font-weight: 700;
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 19px;
+  width: 160px;
+  height: 55px;
+  padding: 18px 40px;
+  color: #ffffff;
+  background-color: #2e47bd;
+  margin-right: 51px;
+}
+.container .left .footer ul li {
+  list-style-image: url(image/Polygon.svg);
+}
+
+.container .left .scroll ul li {
+  list-style-type: none;
+  width: 162px;
+  height: 19px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  color: #2b2c43;
+  margin-left: -30px;
+  list-style-image: url(image/Vector\ .svg);
+}
+
+.container .right-img {
+  width: 550px;
+  height: 450px;
+  position: relative;
+  left: -150px;
+  z-index: -10;
+  border-radius: 10px;
+  background-color: #3b4c68;
+}
+
+/*_______________________________PAGE 1 END___________________________________*/
+
+/*_______________________________PAGE 2 START__________________________________*/
+.page-2 {
+  width: 800px;
+}
+.container-2 {
+  display: flex;
+  margin: 20px 172px 111px 120px;
+  /*margin: 120px 150px 80px 50px;*/
+}
+
+.container-2 .left-2 .image-2 {
+  width: 350px;
+  height: 580px;
+  margin-right: 119px;
+  margin-top: 10px;
+}
+.container-2 .left-2 .element {
+  width: 250px;
+  height: 150px;
+  margin-top: -150px;
+  margin-left: -140px;
+}
+
+.container-2 .right-2 {
+  margin-top: 110px;
+}
+.container-2 .right-2 .about {
+  width: 115px;
+  height: 19px;
+  font-weight: 700;
+  font-family: "Lato";
+  font-size: 18px;
+  color: #fe753e;
+
+  margin-bottom: 34px;
+}
+.container-2 .right-2 .main-2 {
+  width: 636px;
+  height: 108px;
+  color: #2b2c43;
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+  margin-bottom: 30px;
+}
+.container-2 .right-2 .text-2 {
+  width: 515px;
+  height: 37px;
+  font-family: "Lato san-serif";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  opacity: 0.6;
+  margin-left: 1px;
+  margin-bottom: 130px;
+}
+.container-2 .footer-2 .btn-2 {
+  font-weight: 700;
+  font-family: "Lato";
+  font-size: 14px;
+
+  width: 150px;
+  height: 55px;
+  padding: 18px 40px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #2e47bd;
+}
+
+/*_________________________________PAGE 3 START_________________________________________________*/
+.page-3 .header-3 {
+  width: 85%;
+  margin: 98px 450px 20px 550px;
+}
+.page-3 .header-3 .header-3-top {
+  width: 129px;
+  height: 22px;
+  margin-bottom: 50px;
+  position: absolute;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 18px;
+  color: #fe753e;
+}
+.page-3 .header-3 .header-3-bottom {
+  width: 442px;
+  height: 43px;
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 32;
+  line-height: 86px;
+  margin: 30px -50px;
+  letter-spacing: 0.02em;
+}
+
+.container-3 {
+  margin: 86px 152px;
+  display: flex;
+  justify-content: space-between;
+}
+.page-3 .container-3 .row-image {
+  width: 300px;
+  height: 150px;
+}
+
+.page-3 .container-3 .row-1-texts {
+  margin: 50px 200px 48px 43px;
+}
+.page-3 .container-3 .row-1-header {
+  width: 128px;
+  height: 29px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 24px;
+  color: #2b2c43;
+}
+.page-3 .container-3 .row-1-text {
+  width: 194px;
+  height: 86px;
+  margin-top: 20px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  opacity: 0.5;
+}
+.container-3 .row-2 {
+  margin-left: -200px;
+}
+
+.container-3 .row-2-texts {
+  margin-left: 43px;
+  margin-top: 50px;
+}
+
+.container-3 .row-2 .row-2-header {
+  width: 128px;
+  height: 29px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 24px;
+  color: #2b2c43;
+}
+.container-3 .row-2 .row-2-texts .row-2-text {
+  width: 194px;
+  height: 86px;
+  margin-top: 20px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  opacity: 0.5;
+}
+.container-3 .row-3 .row-image {
+  margin-left: -60px;
+}
+.container-3 .row-3 .row-3-texts {
+  margin-left: -20px;
+  margin-top: 50px;
+}
+
+.container-3 .row-3 .row-3-header {
+  width: 162px;
+  height: 29px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 24px;
+  color: #2b2c43;
+}
+.container-3 .row-3 .row-3-texts .row-3-text {
+  width: 194px;
+  height: 86px;
+  margin-top: 20px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  opacity: 0.5;
+}
+.page-3 .page-3-footer {
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.page-3 .page-3-footer .nos {
+  width: 130px;
+  height: 22px;
+  font-family: "Lato";
+  font-size: 15px;
+  letter-spacing: 0.02em;
+
+  /*margin: 98px 24px 65px 500px;*/
+  margin-left: 500px;
+}
+
+/*___________________________PAGE 3 END_________________________________________________*/
+
+/*___________________________PAGE 4 START______________________________________________*/
+
+.page-4 {
+  margin-top: 175px;
+  margin-bottom: 150px;
+  margin-left: 100px;
+}
+.container-4 {
+  display: flex;
+}
+.page-4 .container-4 .left-4 .gallery {
+  width: 100px;
+  height: 22px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 18px;
+  color: #fe753e;
+}
+.page-4 .container-4 .left-4 .left-4-header {
+  width: 571px;
+  height: 79px;
+  margin-top: 26px;
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  letter-spacing: 0.02em;
+}
+.page-4 .container-4 .left-4 .left-4-text {
+  width: 556px;
+  height: 114px;
+  margin-top: 59px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 34px;
+  letter-spacing: 0.02em;
+  opacity: 0.7;
+}
+.page-4 .container-4 .left-4-footer {
+  display: flex;
+  margin-top: 102px;
+}
+.page-4 .container-4 .left-4-footer .one {
+  margin-right: 20px;
+}
+
+.page-4 .container-4 .right-4 {
+  display: flex;
+}
+.page-4 .container-4 .right-4 .img-left {
+  height: 473px;
+  margin-right: 20px;
+}
+/*_____________________________-PAGE 4 END_____________________________________-*/
+
+/*____________________________PAGE 5 START____________________________________*/
+
+.page-5 {
+  margin: 91px 106px 38px 14px;
+}
+.page-5 .header-5 .testimonial {
+  width: 156px;
+  height: 22px;
+  font-family: "Lato";
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #fe753e;
+  margin-left: 10px;
+  margin-bottom: 38px;
+}
+
+.header-5 .header-5-main {
+  width: 483px;
+  height: 99px;
+
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  margin-bottom: 131px;
+}
+
+.page-5 .main-section {
+  width: 800px;
+  height: 500px;
+  background-color: #3b4c68;
+}
+
+.page-5 .container-5 .top .top-left {
+  width: 280px;
+  height: 104px;
+  margin: 81px 20px 20px 150px;
+  padding: 58px 96px 66px 117px;
+  color: #2e47bd;
+  background-color: #ffffff;
+  /* position: absolute;*/
+}
+.page-5 .container-5 .top .top-left .JB {
+  margin: 58px 200px 13px 110px;
+}
+
+.main-section .box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: #3b4c68;
+}
+.main-section .box.ellipse {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  width: 300px;
+  height: 150px;
+  margin: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.main-section .box.name {
+  font-family: "Lato";
+  font-size: 20px;
+  line-height: 24px;
+}
+.box .box-1-text p {
+  width: 236px;
+  height: 38px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  opacity: 0.5;
+}
+.box .box-2-text p {
+  width: 264px;
+  height: 59px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  opacity: 0.5;
+}
+.box .box-3-text p {
+  width: 284px;
+  height: 38px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  opacity: 0.5;
+}
+
+.box .box-4-text p {
+  width: 260px;
+  height: 38px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  opacity: 0.5;
+}
+/*__________________________________PAGE 5 START________________________________________*/
+
+.footer-end {
+  margin: 160px 170px 75px -50px;
+}
+.footer-end .footer-header ul {
+  list-style-type: none;
+  display: flex;
+  font-family: "Lato";
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 1px;
+  color: #3b4c68;
+  margin-left: 10px;
+}
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.footer-end .footer-text ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 223%;
+  letter-spacing: 1px;
+  color: #3b4c68;
+}
